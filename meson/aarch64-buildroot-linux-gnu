@@ -1,0 +1,19 @@
+[binaries]
+
+c = 'aarch64-buildroot-linux-gnu-gcc'
+cpp = 'aarch64-buildroot-linux-gnu-g++'
+ar = 'aarch64-buildroot-linux-gnu-ar'
+strip = 'aarch64-buildroot-linux-gnu-strip'
+pkgconfig = 'aarch64-buildroot-linux-gnu-pkg-config'
+
+pcap-config = ''
+
+[host_machine]
+system = 'linux'
+cpu_family = 'aarch64'
+cpu = 'armv8-a'
+endian = 'little'
+
+[properties]
+platform = 'generic_aarch64'
+needs_exe_wrapper = false
